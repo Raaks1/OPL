@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ITL/static/css/main.08979c42.css",
+    "main.js": "/ITL/static/js/main.577f4e3a.js",
+    "static/media/learning-03.jpg": "/ITL/static/media/learning-03.a9bdd94e0ab7626957f8.jpg",
+    "static/media/learning-01.jpg": "/ITL/static/media/learning-01.d3b4e75a8fbeb4ccf1ee.jpg",
+    "static/media/learning-02.jpg": "/ITL/static/media/learning-02.ac349ee13680ed6ad0aa.jpg",
+    "static/media/learning-04.jpg": "/ITL/static/media/learning-04.4ce7f77137a29167cc81.jpg",
+    "index.html": "/ITL/index.html",
+    "main.08979c42.css.map": "/ITL/static/css/main.08979c42.css.map",
+    "main.577f4e3a.js.map": "/ITL/static/js/main.577f4e3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08979c42.css",
+    "static/js/main.577f4e3a.js"
+  ]
+}

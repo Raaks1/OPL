@@ -1,0 +1,50 @@
+:root {
+    --primary: orange;
+    --warning: red;
+    --danger: pink;
+    --success: green;
+    --white: grey;
+    --dark: black;
+    --primary: orange;
+
+}
+
+.btn {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 25px;
+    align-self: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 250px;
+    height: 45px;;
+    color: White;
+    background-color: rgb(244, 163, 102);
+    font-size: 18px;
+    font-family: 'Monsterrat';
+    font-weight: 800;
+    z-index: 5;
+    
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn--primary--solid {
+
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+}
+
+
+.btn--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
