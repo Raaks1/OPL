@@ -1,7 +1,7 @@
 .container{
     
-    display:flex;
-  justify-content: center;
+   display:flex;
+   justify-content: center;
 
    margin-top:190px;
    margin-left: 0px;
@@ -73,17 +73,17 @@
 .circleone{
     
     display: flex;
-text-align: center;
-align-items: center;
-align-content: center;
-justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     height: 200px;
     width:200px;
     background-color: #68CAB2;
     font-size: 3.5rem;
-   border-radius: 50%;
+    border-radius: 50%;
    
-   font-weight: bolder;
+    font-weight: bolder;
     
 }
 

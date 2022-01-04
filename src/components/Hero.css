@@ -3,7 +3,7 @@
 
 .hero {
     
- position: relative;
+    position: relative;
     display: flex;
    
     align-content: center;
@@ -33,7 +33,7 @@
 
 .hero__title {
 
-   color: white;
+    color: white;
     font-size: 4rem;;
     padding: 15px;
     position: relative;
@@ -41,7 +41,7 @@
     justify-content: center;
     text-align: center;
     justify-content: center;
-   margin-top: 275px;
+    margin-top: 275px;
     align-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
