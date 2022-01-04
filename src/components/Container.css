@@ -25,11 +25,13 @@
 
 .container__image {
     width: 550px;
+    
     /*box-shadow: 0px 6px 8px 0px;;*/
     border-radius: 75px;
     max-height: 500px;
     margin-left: 0px;
     margin-left: 30px;
+   
    
    
   
@@ -96,7 +98,7 @@ justify-content: center;
 .sirkel{
     display: flex;
     justify-content: end;
-    margin-right: 99px;;
+    margin-right: 120px;;
     margin-bottom:20px;
     margin-top: -2px;
 
@@ -110,6 +112,6 @@ justify-content: center;
     height: 450px;
     background-repeat: no-repeat;
     margin-left: 0%;
-    margin-top:40%;
+    margin-top:40.2%;
    
 }
