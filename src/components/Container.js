@@ -19,7 +19,9 @@ const Container = ({ imageSrc, title, subtitle, flipped }) => {
             <div className='sirkel'>
             <span className="circleone">1</span>
             </div>
+         
         </div>
+        <span className='dots'></span>
         </>;
         } else {
             
@@ -31,6 +33,7 @@ const Container = ({ imageSrc, title, subtitle, flipped }) => {
 
         </div>
                <img src={imageSrc} alt="picture" className="container__image" />
+              
         
              </>
         

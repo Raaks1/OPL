@@ -10,6 +10,7 @@
    opacity:0;
    transform: scale(85%);
    transition: 1s;
+  
 
 }
 
@@ -24,8 +25,9 @@
    
  height: 550px;
  width: 550px;
-  border-radius: 50%;
-  margin-top: 20px;
+ border-radius: 50%;
+ margin-top: 20px;
+  
 
  
 
@@ -48,6 +50,7 @@
     margin-left: 0px;
     margin-right: 0px;;
     font-size: 1.3rem;
+    margin-top: 0px;
 
  
 
@@ -63,7 +66,7 @@
     margin-bottom: 20px;;
     font-weight: bolder;
     max-width: 1300px;
-    font-size: 3.3rem;
+    font-size: 1rem;
     
     
   
@@ -83,6 +86,7 @@ justify-content: center;
     background-color: #68CAB2;
     font-size: 3.5rem;
    border-radius: 50%;
+   margin-left: 105px;;
    
    font-weight: bolder;
     
@@ -103,3 +107,19 @@ justify-content: center;
     justify-content: start;
     margin-left:0px;
 }
+
+.dots2{
+
+    display: flex;
+    position: absolute;
+    background-image: url(/src/Images/Vector2.png);
+    width: 1000px;
+    height: 1000px;
+   
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top:15%;
+
+}
+
+

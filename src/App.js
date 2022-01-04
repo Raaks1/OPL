@@ -2,6 +2,7 @@ import "./App.css";
 import learning_01 from "./Images/learning-01.jpg";
 import learning_02 from "./Images/learning-02.jpg";
 import learning_03 from "./Images/learning-03.jpg";
+/*import Vector from  "./Images/Vector.png";*/
 /*import learning_04 from "./Images/learning-04.jpg";*/
 import Hero from "./components/Hero";
 import { Button } from "./components/Button";
@@ -66,7 +67,7 @@ function App() {
     
        />
          <Containertwo imageSrce={learning_03} title={"Hva er unikt med ITL som opplæringskontor?"}
-      subtitle={"Lorem ipsum dolor sit amet, Fusce pharetra ligula tortor, sit amet placerat turpis dapibus ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra ligula tortor, sit amet placerat turpis dapibus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem quam. Vestibulum posuere interdum diam, eget lacinia ante pulvinar a. Aenean hendrerit dui sit amet enim eleifend consectetur. Etiam gravida egestas neque at malesuada. Donec commodo velit a ligula feugiat euismod. Phasellus pellentesque felis nibh, at laoreet arcu hendrerit eget. Ut rhoncus urna vitae convallis luctus. Fusce dignissim ultrices tortor, id tristique magna suscipit nec. Aliquam vel vulputate lectus. Nunc vitae posuere tellus, nec tincidunt nulla. Morbi ultrices, ligula eget ultricies fermentum, sem metus cursus nulla, vitae posuere justo diam ac augue. In ac consequat arcu.Duis pharetra vestibulum fermentum. In ultrices pretium ante, vitae dapibus orci."}
+      subtitle={"Lorem ipsum dolor sit amet, Fusce pharetra ligula tortor, sit amet placerat turpis dapibus ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra ligula tortor, sit amet placerat turpis dapibus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem quam. Etiam gravida egestas neque at malesuada. Donec commodo velit a ligula feugiat euismod. Phasellus pellentesque felis nibh, at laoreet arcu hendrerit eget.  Fusce dignissim ultrices tortor, id tristique magna suscipit nec. Aliquam vel vulputate lectus. Nunc vitae posuere tellus, nec tincidunt nulla. Morbi ultrices, ligula eget ultricies fermentum, sem metus cursus nulla, vitae posuere justo diam ac augue. In ac consequat arcu.Duis pharetra vestibulum fermentum. In ultrices pretium ante, vitae dapibus orci."}
         flipped={true}/>
       
        

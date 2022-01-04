@@ -20,6 +20,7 @@ const Containertwo = ({ imageSrce, title, subtitle, flipped }) => {
             <p className="text2">{subtitle}</p>
             
         </div>
+        
         </>;
         } else {
             
@@ -27,13 +28,15 @@ const Containertwo = ({ imageSrce, title, subtitle, flipped }) => {
              <>
              <div className='sirkeltwo'>
             <span className="circletwo">2</span>
+            <span className='dots2'></span>
             </div>
             <div className="container__content">
             
             <h1 className="container__title">{title}</h1>
          
             <p className="text2">{subtitle}    <img src={imageSrce} alt="picture" className="container_image" /></p>
-           
+        
+         
           
                
            
