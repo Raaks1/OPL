@@ -20,6 +20,7 @@ import {
   
 } from "react-router-dom";
 import About from "./About"
+import KontaktOss from "./components/ContactForm";
 
 
 
@@ -32,8 +33,8 @@ import About from "./About"
 
 const navbarLinks = [
   { url: "/", title: "Hjem" },
-  { url: "/About", title: "Om oss" },
-  { url: "/Kontakt", title: "Kontakt" },
+  { url: "https://raaks1.github.io/faqreact", title: "Om oss" },
+  { url: "/Footer", title: "Kontakt" },
   { url: "Lærlinger", title: "For Lærlinger" },
   { url: "Bedrifter", title: "For Bedrifter" },
   
@@ -46,13 +47,13 @@ function App() {
       <Navbar navbarLinks={navbarLinks} />
       <Routes>
           
-          <Route path="/About" element={<About />} />
+          <Route path="/About" component={<About />} />
            
-          <Route path="/Contact" element={<Contact />} />
+          <Route exact path="/Footer" component={<Footer/>} />
           
           </Routes>
       </Router>
-      <Faq />
+    
       <Hero title="Bedrift?">
       
       
@@ -78,7 +79,7 @@ function App() {
       flipped={true}
      
       />
-    
+    <KontaktOss>TEST</KontaktOss>
 
     <Footer />
    

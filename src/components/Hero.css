@@ -86,9 +86,9 @@
 
  
  
- 
    
-  margin-left:40px;
+   
+    margin-left:40px;
     margin-right: 20px;
     line-height: 25px;
     
@@ -99,30 +99,30 @@
 
 
 .hero__titletwo{
-    margin-top: 275px;
-    color: white;
+     margin-top: 275px;
+     color: white;
      font-size: 4rem;;
      padding: 15px;
      position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-   font-weight: 900;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-content: center;
+     align-items: center;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
   
 }
 
 .con1{
     display:flex;
-    
+   
     flex-direction: column;
     background-image:  url(../Images/learning-01.jpg);
     width: 50%;
     height: 90vh;
     font-family: 'Montserrat', sans-serif;
-   
+    background-repeat: no-repeat;
     background-size: cover;
     margin-right: 0px;
    
@@ -145,12 +145,12 @@
 }
 
  
-.con1:hover .hero__title {
+/*.con1:hover .hero__title {
         
     /*display: none;*/
-    transition: ease 0.5s;
+  /*  transition: ease 0.5s;
 
-}
+}*/
   
  /* .con1:hover .infotext {
         
@@ -160,10 +160,10 @@
   }*/
 
   .con1:hover{
-      position: relative;
+      /*position: relative;*/
       opacity: 1;
-      transition: ease-in 0.5s;
-     background-color: none;;
+      transition: ease 0.5s;
+      /*background-color: none;;*/
   
      
       z-index: 1;
