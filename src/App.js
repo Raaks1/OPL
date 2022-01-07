@@ -34,7 +34,7 @@ import KontaktOss from "./components/ContactForm";
 const navbarLinks = [
   { url: "/", title: "Hjem" },
   { url: "https://raaks1.github.io/faqreact", title: "Om oss" },
-  { url: "/Footer", title: "Kontakt" },
+  { url: "", title: "Kontakt" },
   { url: "Lærlinger", title: "For Lærlinger" },
   { url: "Bedrifter", title: "For Bedrifter" },
   
@@ -43,15 +43,17 @@ const navbarLinks = [
 function App() {
   return (
     <div className="App">
-      <Router>
-      <Navbar navbarLinks={navbarLinks} />
-      <Routes>
+       <Router>
+        <Navbar navbarLinks={navbarLinks} />
+     
+         <Routes>
           
           <Route path="/About" component={<About />} />
            
           <Route exact path="/Footer" component={<Footer/>} />
           
           </Routes>
+          
       </Router>
     
       <Hero title="Bedrift?">

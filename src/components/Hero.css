@@ -164,7 +164,7 @@
       opacity: 1;
       transition: ease 0.5s;
       /*background-color: none;;*/
-  
+        
      
       z-index: 1;
       
@@ -229,7 +229,7 @@
        
         
     
-   .hero::before{
+   /*.hero::before{
     content:"";
     position: absolute;
     top: 0px;
@@ -238,7 +238,29 @@
     left: 0%;
     background-color: rgb(104, 202, 178, 0.25);
 
+    }*/
+
+    .con1::before{
+        content:"";
+        position: absolute;
+        top: 0px;
+        right: 50%;
+        bottom: 0px;
+        left: 0%;
+        background-color: rgb(104, 202, 178, 0.25);
+
     }
+
+    .con1:hover:before{
+
+
+        opacity: 1;
+        transition: ease 0.5s;
+        z-index: 1;
+        background-color: transparent;
+    }
+
+    
 
    
 
