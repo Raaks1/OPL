@@ -72,6 +72,12 @@
 }*/
 
 
+.form-control:focus{
+    border: none;
+}
 
 
 
+.form-text:focus{
+    border: none;
+}
