@@ -18,7 +18,7 @@ export default function KontaktOss() {
                             <input type="text" className="form-control" placeholder="Navn" name="name"/>
                         </div>
                         <div className="form-group">
-                            <input type="email" className="form-control" placeholder="Email Addresse" name="email"/>
+                            <input type="email" className="form-control" placeholder="Email" name="email"/>
                         </div>
                         <div className="form-group">
                             <input type="text" className="form-control" placeholder="Tema" name="subject"/>
