@@ -1,4 +1,4 @@
-.container{
+/*.container{
     
     display:flex;
     justify-content: center;
@@ -23,7 +23,7 @@
      opacity:1;
      transform: scale(100%);
      transition: 1s;
- }
+ }*/
  
  .container____image {
      width: 550px;
@@ -84,7 +84,7 @@
      line-height: 25px;
  }
  
- /*.sirkel{
+ .sirkel{
      display: flex;
      justify-content: end;
      margin-right: 120px;;
@@ -93,14 +93,14 @@
  
  }
  
- /*.dots{
+ .dots{
      display: flex;
      position: absolute;
      background-image: url(/src/Images/Vector.png);
      width: 1000px;
      height: 600px;
      background-repeat: no-repeat;
-     /*margin-left: 0%;*/
-     /*margin-top:38.5%;
+     margin-left: 0%;
+     margin-top:38.5%;
     
- }*/
+ }
