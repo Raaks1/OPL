@@ -38,9 +38,9 @@ import {
 const navbarLinks = [
   { url: "/", title: "Hjem" },
   { url: "/About", title: "Om oss" },
-  { url: "/About", title: "Kontakt" },
+  { url: "/Cpntact", title: "Kontakt" },
   { url: "https://raaks1.github.io/faqreact", title: "For Lærlinger" },
-  { url: "/Footer", title: "For Bedrifter" },
+  { url: "Bedrifter", title: "For Bedrifter" },
   
 ];
 

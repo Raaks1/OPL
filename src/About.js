@@ -14,7 +14,7 @@ import Test123 from './components/Test123';
 const navbarLinks = [
   { url: "/", title: "Hjem" },
   { url: "/About", title: "Om oss" },
-  { url: "/About", title: "Kontakt" },
+  { url: "/Contact", title: "Kontakt" },
   { url: "Lærlinger", title: "For Lærlinger" },
   { url: "Bedrifter", title: "For Bedrifter" },
   
