@@ -6,21 +6,25 @@ import learning_03 from "./Images/learning-03.jpg";
 /*import learning_04 from "./Images/learning-04.jpg";*/
 import Hero from "./components/Hero";
 import { Button } from "./components/Button";
-import Faq from "./components/Faq"
+
 import React from 'react';
 import Container from "./components/Container";
 import Navbar from "./components/Navbar";
 import Containertwo from "./components/Containertwo";
 import Containerthree from "./components/Containerthree";
 import Footer from "./components/Footer";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  
-} from "react-router-dom";
+
 import About from "./About"
 import KontaktOss from "./components/ContactForm";
+import {
+  BrowserRouter as Router, Route, Routes,
+  
+
+  
+} from "react-router-dom";
+
+
+
 
 
 
@@ -33,28 +37,24 @@ import KontaktOss from "./components/ContactForm";
 
 const navbarLinks = [
   { url: "/", title: "Hjem" },
-  { url: "https://raaks1.github.io/faqreact", title: "Om oss" },
-  { url: "/Footer", title: "Kontakt" },
-  { url: "Lærlinger", title: "For Lærlinger" },
-  { url: "Bedrifter", title: "For Bedrifter" },
+  { url: "/About", title: "Om oss" },
+  { url: "/About", title: "Kontakt" },
+  { url: "https://raaks1.github.io/faqreact", title: "For Lærlinger" },
+  { url: "/Footer", title: "For Bedrifter" },
   
 ];
 
 function App() {
   return (
     <div className="App">
-       <Router>
-        <Navbar navbarLinks={navbarLinks} />
      
-         <Routes>
-          
-          <Route path="/About" component={<About />} />
-           
-          <Route exact path="/Footer" component={<Footer/>} />
-          
-          </Routes>
-          
-      </Router>
+     
+  
+      
+      
+        <Navbar navbarLinks={navbarLinks} />
+
+        
     
       <Hero title="Bedrift?">
       
@@ -81,7 +81,7 @@ function App() {
       flipped={true}
      
       />
-    <KontaktOss>TEST</KontaktOss>
+    <KontaktOss></KontaktOss>
 
     <Footer />
    
