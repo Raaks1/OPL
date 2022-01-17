@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import About from './About'
 import {
-  HashRouter as Router, Route, Routes,
-  
+  HashRouter as Router, Routes, Route,
 
   
 } from "react-router-dom";
@@ -12,20 +11,27 @@ import {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-    
-  
-   <Routes>
-      <Route exact path="*" element={<App />} />
+
+<Router>
+
+         <Routes >
+          <Route exact path="/About" element= {<About />} />
+          <Route exact path="*" element= {<App />} />
+
+ 
+        </Routes>
      
-     <Route path="/About" element={<About />} />
+</Router>
     
+ 
+  
+
    
-   
-   </Routes>
+
+  
+ 
     
-       </Router>
-   
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

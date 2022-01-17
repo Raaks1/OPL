@@ -17,7 +17,7 @@ import Footer from "./components/Footer";
 import About from "./About"
 import KontaktOss from "./components/ContactForm";
 import {
-  BrowserRouter as Router, Route, Routes,
+  HashRouter as Router, Route, Routes,
   
 
   
@@ -37,8 +37,8 @@ import {
 
 const navbarLinks = [
   { url: "/", title: "Hjem" },
-  { url: "/About", title: "Om oss" },
-  { url: "/Cpntact", title: "Kontakt" },
+  { url: "/#/About", title: "Om oss" },
+  { url: "/Contact", title: "Kontakt" },
   { url: "https://raaks1.github.io/faqreact", title: "For Lærlinger" },
   { url: "Bedrifter", title: "For Bedrifter" },
   
@@ -46,10 +46,8 @@ const navbarLinks = [
 
 function App() {
   return (
-    <div className="App">
-     
-     
-  
+    <div className="App"> 
+
       
       
         <Navbar navbarLinks={navbarLinks} />

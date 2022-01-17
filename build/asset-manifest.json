@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/OPL/static/css/main.18eef045.css",
-    "main.js": "/OPL/static/js/main.2dd01973.js",
+    "main.js": "/OPL/static/js/main.a1ccc27d.js",
     "static/media/learning-03.jpg": "/OPL/static/media/learning-03.a9bdd94e0ab7626957f8.jpg",
     "static/media/learning-01.jpg": "/OPL/static/media/learning-01.d3b4e75a8fbeb4ccf1ee.jpg",
     "static/media/learning-02.jpg": "/OPL/static/media/learning-02.ac349ee13680ed6ad0aa.jpg",
     "static/media/learning-04.jpg": "/OPL/static/media/learning-04.4ce7f77137a29167cc81.jpg",
     "index.html": "/OPL/index.html",
     "main.18eef045.css.map": "/OPL/static/css/main.18eef045.css.map",
-    "main.2dd01973.js.map": "/OPL/static/js/main.2dd01973.js.map"
+    "main.a1ccc27d.js.map": "/OPL/static/js/main.a1ccc27d.js.map"
   },
   "entrypoints": [
     "static/css/main.18eef045.css",
-    "static/js/main.2dd01973.js"
+    "static/js/main.a1ccc27d.js"
   ]
 }
