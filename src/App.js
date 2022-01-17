@@ -36,8 +36,8 @@ import {
 
 
 const navbarLinks = [
-  { url: "/", title: "Hjem" },
-  { url: "OPL/#/About", title: "Om oss" },
+  { url: "/OPL/", title: "Hjem" },
+  { url: "/OPL/#/About", title: "Om oss" },
   { url: "/Contact", title: "Kontakt" },
   { url: "https://raaks1.github.io/faqreact", title: "For Lærlinger" },
   { url: "Bedrifter", title: "For Bedrifter" },
