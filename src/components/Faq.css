@@ -10,7 +10,7 @@
    /*  visibility: hidden;*/
     position: relative;
     margin-bottom: 70px;
-
+    
     
     
 
@@ -18,7 +18,11 @@
 
 .accordian {
 
-    width: 49.6%;
+    /*width: 49.6%;*/
+    width: 50%;
+  
+    
+   
    
 }
 
@@ -26,6 +30,9 @@
     background: #68CAB2;
     margin-bottom: 5px;
     padding: 10px 20px;
+    
+    
+  
    
    
    
@@ -38,7 +45,11 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 900;
+    
+   
+ 
     
 
 }
@@ -58,3 +69,4 @@
     transition: all 0.5s cubic-bezier(1,0,1,0);
     
 }
+
