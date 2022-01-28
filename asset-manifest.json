@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OPL/static/css/main.6dfb7b42.css",
-    "main.js": "/OPL/static/js/main.b2230267.js",
+    "main.js": "/OPL/static/js/main.d460e10a.js",
     "static/media/office.jpg": "/OPL/static/media/office.b23666cec3cb32e6e47f.jpg",
     "static/media/learning.jpg": "/OPL/static/media/learning.e1daf59f843831b64de4.jpg",
     "static/media/med2.jpg": "/OPL/static/media/med2.16242a1ff995a7f6461a.jpg",
@@ -20,10 +20,10 @@
     "static/media/klasserom.jpg": "/OPL/static/media/klasserom.2cba5fe3937db6ace2e4.jpg",
     "index.html": "/OPL/index.html",
     "main.6dfb7b42.css.map": "/OPL/static/css/main.6dfb7b42.css.map",
-    "main.b2230267.js.map": "/OPL/static/js/main.b2230267.js.map"
+    "main.d460e10a.js.map": "/OPL/static/js/main.d460e10a.js.map"
   },
   "entrypoints": [
     "static/css/main.6dfb7b42.css",
-    "static/js/main.b2230267.js"
+    "static/js/main.d460e10a.js"
   ]
 }
