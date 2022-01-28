@@ -140,6 +140,7 @@
     background-size: cover;
     margin-left: 0px;
     font-family: 'Montserrat', sans-serif;
+    background-color: #68CAB2;
   
     /*box-shadow: 0px 0px 3px 0px;*/
 }
@@ -181,15 +182,21 @@
   
 
 .con2:hover{
-    transition: ease-in 0.5s;
-    background-image: none;
+    transition: 1.5s;
+   /* background-image: url(/src/Images/learning-04.jpg) ;*/
+    opacity: 1;
+    background-image: none;;
     background-color: #68CAB2;
-  
+    /*transition-delay:1s;*/
  
+   
  
   z-index: 1;
 }
-
+/*.con2::after:hover{
+    background-color: #68CAB2;
+    z-index:2;
+}
 /*.con2:hover .infotexttwo {
         
     opacity: 1;

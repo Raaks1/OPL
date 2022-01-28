@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/OPL/static/css/main.18eef045.css",
-    "main.js": "/OPL/static/js/main.3cf3ff8c.js",
+    "main.css": "/OPL/static/css/main.6dfb7b42.css",
+    "main.js": "/OPL/static/js/main.b2230267.js",
+    "static/media/office.jpg": "/OPL/static/media/office.b23666cec3cb32e6e47f.jpg",
+    "static/media/learning.jpg": "/OPL/static/media/learning.e1daf59f843831b64de4.jpg",
+    "static/media/med2.jpg": "/OPL/static/media/med2.16242a1ff995a7f6461a.jpg",
     "static/media/learning-03.jpg": "/OPL/static/media/learning-03.a9bdd94e0ab7626957f8.jpg",
+    "static/media/tech.jpg": "/OPL/static/media/tech.c3cf7f40d70de11f5d7e.jpg",
+    "static/media/med1.jpg": "/OPL/static/media/med1.32a459f459974202b470.jpg",
     "static/media/learning-01.jpg": "/OPL/static/media/learning-01.d3b4e75a8fbeb4ccf1ee.jpg",
+    "static/media/med4.jpg": "/OPL/static/media/med4.21beb1dda1b5ca293c3b.jpg",
+    "static/media/klasse.jpg": "/OPL/static/media/klasse.245937e71d2761da3262.jpg",
+    "static/media/school1.jpg": "/OPL/static/media/school1.26cb540ede2b7051b6f2.jpg",
+    "static/media/classroom.jpg": "/OPL/static/media/classroom.9d82c47d4542be5a6be1.jpg",
     "static/media/learning-02.jpg": "/OPL/static/media/learning-02.ac349ee13680ed6ad0aa.jpg",
+    "static/media/med3.jpg": "/OPL/static/media/med3.bf2e121716a7e106013e.jpg",
     "static/media/learning-04.jpg": "/OPL/static/media/learning-04.4ce7f77137a29167cc81.jpg",
+    "static/media/student.jpg": "/OPL/static/media/student.18e63f75fae50c3a9cd1.jpg",
+    "static/media/klasserom.jpg": "/OPL/static/media/klasserom.2cba5fe3937db6ace2e4.jpg",
     "index.html": "/OPL/index.html",
-    "main.18eef045.css.map": "/OPL/static/css/main.18eef045.css.map",
-    "main.3cf3ff8c.js.map": "/OPL/static/js/main.3cf3ff8c.js.map"
+    "main.6dfb7b42.css.map": "/OPL/static/css/main.6dfb7b42.css.map",
+    "main.b2230267.js.map": "/OPL/static/js/main.b2230267.js.map"
   },
   "entrypoints": [
-    "static/css/main.18eef045.css",
-    "static/js/main.3cf3ff8c.js"
+    "static/css/main.6dfb7b42.css",
+    "static/js/main.b2230267.js"
   ]
 }

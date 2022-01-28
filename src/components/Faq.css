@@ -9,7 +9,8 @@
     align-items: center;
    /*  visibility: hidden;*/
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
+    margin-top: 200px;
     
     
     
@@ -27,9 +28,11 @@
 }
 
 .item{
-    background: #68CAB2;
+    /*background: #68CAB2;*/
+    background: white;
     margin-bottom: 5px;
     padding: 10px 20px;
+    text-align: start;
     
     
   
@@ -55,6 +58,8 @@
 }
 
 .content {
+    margin-top: 5px;
+    
     font-size: 20px;
     color:#050505;
     max-height: 0;
@@ -63,8 +68,11 @@
 }
 
 .content.show {
+    margin-top: 5px;
     font-size: 20px;
     height: auto;
+    text-align: start;
+   
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
     

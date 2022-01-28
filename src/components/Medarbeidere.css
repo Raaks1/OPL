@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100vw;
+    font-weight: 400;
+    max-height: 100vh;
+    
+   
+  }
+  
+  
+  .html {
+    scroll-behavior: smooth;
+  }
+
+
+  .bilde1, .bilde2, .bilde3, .bilde4 {
+      width: 250px;
+      height: 250px;;
+      margin-top: 90px;;
+      position: relative;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+      
+    
+  }
+
+  .peons {
+      display: flex;
+      flex-direction: column;
+      max-width: 100vw;
+      justify-content: start;
+      height: 500px;
+      margin-bottom: 100px;;
+    
+  }
+
+
+  /*.img-wrapper {
+      display: flex;
+      flex-direction: row;
+      max-width: 100vw;
+      
+  }*/
+
+  header {
+      font-size: 36px;
+      font-weight: 900;
+  }
+  
+ 
+  .med1 {
+      max-width: 100vw;
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+
+  
+  }
+
+
+  .img__description {
+    text-align: center;
+
+    font-size: 26px;
+    z-index: -1;
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-top: 120px;
+    margin-right: 1165px;;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.72);
+    color: black;
+    
+  }
+   
+    /* transition effect. not necessary */
+   /* transition: opacity .2s, visibility .2s;*/
+  
+  
+ .img__description:hover {
+    visibility: visible;
+    opacity: 1;
+   
+    
+   
+  }
+ 
+
+  .bilde1:hover{
+    opacity: 0.2;
+    transition:opacity 1.5s;
+  }
+
+ #stilling {
+     font-size: 20px;;
+ }
+
+ #navn{
+     margin-bottom: 10px;;
+     margin-top: 10px;;
+ }
+
+ #mail {
+     margin-top: 10px;
+
+     font-size: 16px;
+ }
+
+ .bilde2:hover{
+    opacity: 0.2;
+    transition:opacity 1.5s;
+  }
+
+
+  .img__description2 {
+    text-align: center;
+
+    font-size: 26px;
+    z-index: -1;
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-top: 120px;
+    margin-right: 390px;;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.72);
+    color: black;
+    
+  }
+   
+  
+  
+  
+ .img__description2:hover {
+    visibility: visible;
+    opacity: 1;
+
+ }
+
+ .bilde3:hover{
+    opacity: 0.2;
+    transition:opacity 1.5s;
+  }
+
+
+  .img__description3 {
+    text-align: center;
+
+    font-size: 26px;
+    z-index: -1;
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-top: 120px;
+    margin-left: 390px;;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.72);
+    color: black;
+    
+  }
+   
+  
+  
+ .img__description3:hover {
+    visibility: visible;
+    opacity: 1;
+
+ }
+
+ .bilde4:hover{
+    opacity: 0.2;
+    transition:opacity 1.5s;
+  }
+
+
+  .img__description4 {
+    text-align: center;
+
+    font-size: 26px;
+    z-index: -1;
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    margin-top: 120px;
+    margin-left: 1165px;;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.72);
+    color: black;
+    
+  }
+   
+  
+  
+ .img__description4:hover {
+    visibility: visible;
+    opacity: 1;
+
+ }
+
