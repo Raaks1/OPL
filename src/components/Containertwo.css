@@ -94,7 +94,7 @@
 .text2{
     display: flex;
     justify-content: end;
-    /*max-width: 1300px;*/
+   
     
     line-height: 26px;
 }
@@ -116,7 +116,7 @@
     height: 650px;
    
     background-repeat: no-repeat;
-    margin-left: 50%;
+    margin-left: 55%;
     margin-top:75%
 
 }

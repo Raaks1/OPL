@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import "./Om.css";
 
 
-const Test123 = ({ imageSrccc, title, subtitle, flipped }) => {
+const Om = ({ imageSrccc, title, subtitle, flipped }) => {
     const { ref, inView } = useInView({
        
       });
@@ -54,4 +54,4 @@ const Test123 = ({ imageSrccc, title, subtitle, flipped }) => {
   );
 };
 
-export default Test123
+export default Om

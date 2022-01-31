@@ -33,15 +33,13 @@
     font-weight: 400;
     
   
-    max-width: 1400px;
+    max-width: 100vw;
     flex-direction: column;
-    margin-left: 0px;
-    margin-right:0px;;
+   
   
 
  
-
-    padding: 20px;
+padding: 20px;
   
   
   
@@ -69,8 +67,8 @@
 
 
 
-.text6{
-    max-width: 840px;;
+.text6{display: flex;
+    max-width: 100vw;;
     font-size: large;
     line-height: 25px;
     margin-left: 50px;

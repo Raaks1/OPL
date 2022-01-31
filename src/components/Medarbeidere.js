@@ -24,18 +24,18 @@ function Medarbeidere () {
           </p></div>
           <div className='wrapper2'>
           <img className='bilde2' src={med1} alt="bilde"></img>
-          <p class="img__description2"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
+          <p class="img__description2"><div id="navn">Gudrunn</div><span id="stilling">Rektor</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
           </p></div>
           <div className='wrapper3'>
           <img className='bilde3' src={med2} alt="bilde"></img>
-          <p class="img__description3"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
+          <p class="img__description3"><div id="navn">Kåre</div><span id="stilling">Lærer i Design</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
           </p>
           </div>
           <div className='wrapper4'>
           <img className='bilde4' src={med3} alt="bilde"></img>
-          <p class="img__description4"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
+          <p class="img__description4"><div id="navn">Olga</div><span id="stilling">Lærer i Python</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
           </p>
           </div>

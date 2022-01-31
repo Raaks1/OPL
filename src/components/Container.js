@@ -18,11 +18,12 @@ const Container = ({ imageSrc, title, subtitle, flipped }) => {
             <p className="text1">{subtitle}</p>
             <div className='sirkel'>
             <span className="circleone">1</span>
+            <div className='dots'></div>
             </div>
-         
+            
         </div>
       
-        <div className='dots'></div>
+        
         
         
         </>;
