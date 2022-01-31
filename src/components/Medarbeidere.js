@@ -14,37 +14,38 @@ function Medarbeidere () {
       
 <div className='peons'>
     <header> Våre Medarbeidere</header>
-    <div classname='img-wrapper'>
+   
         <div className='med1'>
          
-        
+        <div className='wrapper1'>
           <img className='bilde1' src={med4} alt="bilde"></img>
           <p class="img__description"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
-          </p>
+          </p></div>
+          <div className='wrapper2'>
           <img className='bilde2' src={med1} alt="bilde"></img>
           <p class="img__description2"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
-          </p>
+          </p></div>
+          <div className='wrapper3'>
           <img className='bilde3' src={med2} alt="bilde"></img>
           <p class="img__description3"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
           </p>
+          </div>
+          <div className='wrapper4'>
           <img className='bilde4' src={med3} alt="bilde"></img>
           <p class="img__description4"><div id="navn">Per Egil</div><span id="stilling">Lærer i Nettsikkerhet</span>
           <div id="mail">Kontakt: eksempel@gmail.com</div>
           </p>
+          </div>
          
         </div>
         
 
-        
+       </div>
 
 
-
-    </div>
-
-</div>
 
   );
 }

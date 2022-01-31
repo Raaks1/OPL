@@ -28,7 +28,8 @@ const Containertwo = ({ imageSrce, title, subtitle, flipped }) => {
              <>
              <div className='sirkeltwo'>
             <span className="circletwo">2</span>
-            <span className='dots2'></span>
+           
+            <div className='dots2'></div>
             </div>
             <div className="container__content">
             

@@ -13,7 +13,7 @@ function Footer () {
 to="/" 
 className='scrollup'
 onClick={()=>scroll.scrollToTop()}>
-Hjem
+Til toppen
 </Link>
       <hr className="footer-seperator" />
       <section className="footer-social-media">

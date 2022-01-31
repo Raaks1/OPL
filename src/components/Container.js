@@ -21,7 +21,10 @@ const Container = ({ imageSrc, title, subtitle, flipped }) => {
             </div>
          
         </div>
-        <span className='dots'></span>
+      
+        <div className='dots'></div>
+        
+        
         </>;
         } else {
             

@@ -18,7 +18,7 @@ import Navbar from "./components/Navbar";
 import Containertwo from "./components/Containertwo";
 import Containerthree from "./components/Containerthree";
 import Footer from "./components/Footer";
-
+import { NavLink } from 'react-router-dom';
 import About from "./About"
 import KontaktOss from "./components/ContactForm";
 import {
@@ -53,11 +53,14 @@ function App() {
   return (
     <div className="App"> 
 
-      
-      
-        <Navbar navbarLinks={navbarLinks} />
 
-        
+      
+        <Navbar navbarLinks={navbarLinks}   />
+              
+
+      
+
+   
     
       <Hero title="Bedrift?">
       

@@ -160,39 +160,39 @@
     
   }*/
 
-  .con1:hover{
-      /*position: relative;*/
+  /*.con1:hover{
+      /*position: relative;
       opacity: 1;
       transition: ease 0.5s;
-      /*background-color: none;;*/
+      /*background-color: none;;
         
      
       z-index: 1;
       
     
      
-
+/*
 
 
   }
         
-      
+      /*
 
       
   
 
-.con2:hover{
-    transition: 1.5s;
+/*.con2:hover{
+    /*transition: 1.5s;
    /* background-image: url(/src/Images/learning-04.jpg) ;*/
-    opacity: 1;
-    background-image: none;;
+   /* opacity: 1;
+    background-image:none;
     background-color: #68CAB2;
-    /*transition-delay:1s;*/
+    transition-delay:1s;*/
  
+   /* transition:opacity 0.5s;*/
    
- 
-  z-index: 1;
-}
+   /* z-index: 1;
+}*/
 /*.con2::after:hover{
     background-color: #68CAB2;
     z-index:2;
@@ -247,7 +247,7 @@
 
     }*/
 
-    .con1::before{
+   /* .con1::before{
         content:"";
         position: absolute;
         top: 0px;
@@ -266,6 +266,12 @@
         z-index: 1;
         background-color: transparent;
     }
+
+*/
+   
+
+
+    
 
     
 

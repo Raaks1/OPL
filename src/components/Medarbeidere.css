@@ -19,7 +19,7 @@
   .bilde1, .bilde2, .bilde3, .bilde4 {
       width: 250px;
       height: 250px;;
-      margin-top: 90px;;
+      margin-top: 0px;;
       position: relative;
       box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
       
@@ -30,19 +30,15 @@
       display: flex;
       flex-direction: column;
       max-width: 100vw;
-      justify-content: start;
+      justify-content: space-evenly;
       height: 500px;
       margin-bottom: 100px;;
+    
     
   }
 
 
-  /*.img-wrapper {
-      display: flex;
-      flex-direction: row;
-      max-width: 100vw;
-      
-  }*/
+ 
 
   header {
       font-size: 36px;
@@ -68,8 +64,8 @@
     position: absolute;
     padding: 10px;
     width: 250px;
-    margin-top: 120px;
-    margin-right: 1165px;;
+   /* margin-top: 120px;
+    margin-right: 1165px;;*/
     height: 250px;
     background: rgba(255, 255, 255, 0.72);
     color: black;
@@ -123,8 +119,8 @@
     position: absolute;
     padding: 10px;
     width: 250px;
-    margin-top: 120px;
-    margin-right: 390px;;
+  /*  margin-top: 120px;
+    margin-right: 390px;;*/
     height: 250px;
     background: rgba(255, 255, 255, 0.72);
     color: black;
@@ -154,8 +150,8 @@
     position: absolute;
     padding: 10px;
     width: 250px;
-    margin-top: 120px;
-    margin-left: 390px;;
+    /*margin-top: 120px;
+    margin-left: 390px;;*/
     height: 250px;
     background: rgba(255, 255, 255, 0.72);
     color: black;
@@ -184,8 +180,8 @@
     position: absolute;
     padding: 10px;
     width: 250px;
-    margin-top: 120px;
-    margin-left: 1165px;;
+    /*margin-top: 120px;
+    margin-left: 1165px;;*/
     height: 250px;
     background: rgba(255, 255, 255, 0.72);
     color: black;
@@ -200,3 +196,10 @@
 
  }
 
+.wrapper1, .wrapper2, .wrapper3, .wrapper4{
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 250px;
+}

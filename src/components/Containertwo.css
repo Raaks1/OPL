@@ -1,11 +1,10 @@
 .container{
     
    display:flex;
- 
+   max-width: 100vw;
 
    margin-top:200px;
-   margin-left: 0px;
-   margin-right:    0px;
+  
    margin-bottom: 150px;
    opacity:0;
    transform: scale(85%);
@@ -47,11 +46,9 @@
  
     max-width: 100vw;
     flex-direction: column;
-    margin-left: 0px;
-    margin-right: 0px;;
+   
     font-size: 1.3rem;
-    margin-top: 0px;
-
+   
  
 
     padding: 20px;
@@ -65,7 +62,7 @@
     
     margin-bottom: 20px;;
     font-weight: bolder;
-    max-width: 1300px;
+    /*max-width: 1000px;*/
     font-size: 1rem;
     
     
@@ -86,7 +83,7 @@
    background-color: #68CAB2;   
    font-size: 3.5rem;
    border-radius: 50%;
-   margin-left: 105px;;
+   margin-left: 100px;;
    
    font-weight: bolder;
     
@@ -97,29 +94,32 @@
 .text2{
     display: flex;
     justify-content: end;
-    max-width: 1300px;
+    /*max-width: 1300px;*/
     
     line-height: 26px;
 }
 
 .sirkeltwo{
+    position: relative;
     display: flex;
     justify-content: start;
-    margin-left:0px;
+   
+    
 }
 
 .dots2{
 
-    display: flex;
+  
     position: absolute;
     background-image: url(/src/Images/Vector2.png);
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 650px;
    
     background-repeat: no-repeat;
-    margin-left: 10%;
-    margin-top:15%;
+    margin-left: 50%;
+    margin-top:75%
 
 }
+
 
 
