@@ -14,7 +14,7 @@ const Companies = ({ lærlingBilde, title, subtitle, flipped }) => {
         if (!flipped) {
             return <>
             
-        <img src={lærlingBilde} alt="picture" className="container--image" />
+        <img src={lærlingBilde} alt="" className="container--image" />
         <div className="container--content">
         
             <h1 className="container--title">{title}</h1>
@@ -32,7 +32,7 @@ const Companies = ({ lærlingBilde, title, subtitle, flipped }) => {
             
             <h1 className="container--title">{title}</h1>
          
-            <p className="text6">{subtitle}  <img src={lærlingBilde} alt="picture" className="container--image" /> </p>
+            <p className="text6">{subtitle}  <img src={lærlingBilde} alt="" className="container--image" /> </p>
            
           
                

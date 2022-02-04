@@ -5,7 +5,7 @@ import About from './About'
 import Kontakt from './Kontakt';
 import Trainee from './Trainee';
 import Company from './Company';
-import { NavLink } from 'react-router-dom';
+
 import {
   HashRouter as Router, Routes, Route,
 

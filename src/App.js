@@ -1,12 +1,12 @@
 import "./App.css";
-import learning_01 from "./Images/learning-01.jpg";
+/*import learning_01 from "./Images/learning-01.jpg";*/
 import learning_02 from "./Images/learning-02.jpg";
-import learning_03 from "./Images/learning-03.jpg";
+/*import learning_03 from "./Images/learning-03.jpg";*/
 import tech from "./Images/tech.jpg";
-import classroom from "./Images/classroom.jpg";
+/*import classroom from "./Images/classroom.jpg";*/
 import klasserom from "./Images/klasserom.jpg";
-import klasse from "./Images/klasse.jpg";
-import student from "./Images/student.jpg";
+/*import klasse from "./Images/klasse.jpg";*/
+/*import student from "./Images/student.jpg";*/
 /*import Vector from  "./Images/Vector.png";*/
 /*import learning_04 from "./Images/learning-04.jpg";*/
 import Hero from "./components/Hero";
@@ -18,15 +18,9 @@ import Navbar from "./components/Navbar";
 import Containertwo from "./components/Containertwo";
 import Containerthree from "./components/Containerthree";
 import Footer from "./components/Footer";
-import { NavLink } from 'react-router-dom';
-import About from "./About"
-import KontaktOss from "./components/ContactForm";
-import {
-  HashRouter as Router, Route, Routes,
-  
 
-  
-} from "react-router-dom";
+import KontaktOss from "./components/ContactForm";
+
 
 
 

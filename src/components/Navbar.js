@@ -34,7 +34,7 @@ export default Navbar*/
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
-import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -47,6 +47,7 @@ const Navbar = ({ navbarLinks }) => {
   };
 
   return (
+    
     <nav className="navbar">
       <span className="navbar__logo">ITL</span>
       {menuClicked ? (

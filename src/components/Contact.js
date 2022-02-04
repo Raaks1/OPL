@@ -10,9 +10,10 @@ export default function Contact() {
     const [message, setMessage ] = useState('');
     return (
         <div className='cont'>
+            
             <form>
 
-            <div className="form-group">
+            <div className="testing">
                     <label htmlFor="name">
                     Navn
                     <input
@@ -25,7 +26,7 @@ export default function Contact() {
                     
                     </label>
                 </div>
-                <div className="form-group">
+                <div className="testing">
                     <label htmlFor="email">
                     E-mail
                     <input
@@ -38,7 +39,7 @@ export default function Contact() {
 
                     </label>
                 </div>
-                <div className="form-group">
+                <div className="testing">
                     <label htmlFor="message">
                     Din beskjed
                     <textarea className="textarea"

@@ -11,7 +11,7 @@ const Container = ({ imageSrc, title, subtitle, flipped }) => {
 
         if (!flipped) {
             return <>
-        <img src={imageSrc} alt="picture" className="container__image" />
+        <img src={imageSrc} alt="" className="container__image" />
         <div className="container__content">
             <h1 className="container__title">{title}</h1>
            
@@ -36,7 +36,7 @@ const Container = ({ imageSrc, title, subtitle, flipped }) => {
             <p className="text1">{subtitle}</p>
 
         </div>
-               <img src={imageSrc} alt="picture" className="container__image" />
+               <img src={imageSrc} alt="" className="container__image" />
               
         
              </>

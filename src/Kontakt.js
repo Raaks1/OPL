@@ -25,6 +25,9 @@ function Kontakt() {
     return (
 
 <div className="Kontaktskjema">
+<style>{'body { background-color: #68CAB2; }'}</style>
+
+
     
         <Navbar navbarLinks={navbarLinks} />
         

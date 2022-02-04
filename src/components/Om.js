@@ -13,12 +13,12 @@ const Om = ({ imageSrccc, title, subtitle, flipped }) => {
         if (!flipped) {
             return <>
             
-        <img src={imageSrccc} alt="picture" className="container____image" />
+        <img src={imageSrccc} alt="" className="container____image" />
         <div className="container____content">
         
             <h1 className="container____title">{title}</h1>
            
-            <p className="text2">{subtitle}</p>
+            <p className="text4">{subtitle}</p>
             
         </div>
         </>;
@@ -31,7 +31,7 @@ const Om = ({ imageSrccc, title, subtitle, flipped }) => {
             
             <h1 className="container____title">{title}</h1>
          
-            <p className="text4">{subtitle}  <img src={imageSrccc} alt="picture" className="container____image" /> </p>
+            <p className="text4">{subtitle}  <img src={imageSrccc} alt="" className="container____image" /> </p>
            
           
                

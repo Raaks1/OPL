@@ -4,11 +4,25 @@
 .cont {
     margin-top: 300px;
     margin-bottom: 100px;;
+    background-color: #68CAB2;
    
 }
 
 
+.testing {
+    background-color:#68CAB2;
+    width: 100%;
+  
+    margin-bottom: 2rem;
+   /* background-color: #282c34;*/
 
+    
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    align-content: center;
+}
 
 .form-group{
     width: 100%;
@@ -16,6 +30,7 @@
     margin-bottom: 2rem;
    /* background-color: #282c34;*/
     background-color: white;
+    
     display: flex;
     justify-content: center;
    
@@ -27,7 +42,7 @@
 
 label{
     font-size: 1.8rem;
-    color: #68CAB2;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: start;
